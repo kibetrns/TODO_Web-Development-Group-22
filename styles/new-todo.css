@@ -1,0 +1,37 @@
+body {
+    background-color: #500303;
+}
+
+.new-todo-page {
+}
+.new-todo-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+.new-todo-form  label {
+    color: white;
+    font-weight: 900;
+}
+
+.task-title {
+}
+
+.task-desctiption {
+}
+
+.task-date {
+}
+
+.add-btn {
+    border: none;
+    background-color: #213ed7;
+    display: inline-block;
+    font-size: larger;
+    width: fit-content;
+    padding: 0rem 2rem;
+}

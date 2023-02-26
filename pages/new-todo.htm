@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODOs</title>
+    <link rel="stylesheet" href="../styles/new-todo.css" />
+  </head>
+
+  <body>
+    <div class="new-todo-page">
+      <form action="" class="new-todo-form">
+        <div class="task-title">
+          <label>Task</label><br />
+          <input type="text" id="" placeholder="Enter task title" /><br />
+        </div>
+
+        <div class="task-desctiption">
+          <label>Description</label><br />
+          <!-- <input type="text" id="" placeholder="Briefly describe the task"><br> -->
+          <textarea
+            id=""
+            name="task-desctiption"
+            placeholder="Briefly describe the task"
+            rows="4"
+            cols="50"
+          ></textarea>
+        </div>
+
+        <div class="task-date">
+          <label>Date</label><br />
+          <input type="datetime-local" id="" placeholder="02/02/2022" /><br />
+        </div>
+
+        <a href="all-todo.htm">
+          <button class="add-btn">ADD TASK</button>
+        </a>
+      </form>
+    </div>
+  </body>
+  <script src="../scripts/script.js"></script>
+</html>
