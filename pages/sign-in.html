@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TODOs</title>
+  <link rel="stylesheet" href="../styles/sign-in.css" />
+  <script src="https://unpkg.com/realm-web/dist/bundle.iife.js"></script>
+</head>
+
+<body>
+
+<div class="sign-in-container">
+  <h1 class="sign-in-container__Top">SIGN IN</h1>
+
+  <form class="sign-in-container__Center">
+
+    <div>
+      <label for="sign-in-email-address">Email address</label> <br>
+      <input type="text" id="sign-in-email-address" name="name" placeholder="Enter email address" /> <br>
+    </div>
+
+    <div>
+      <label for="sign-in-password">Password</label> <br>
+      <input type="text" id="sign-in-password" name="name" placeholder="Enter password" /> <br>
+    </div>
+
+
+    <button id="sign-in-btn">SIGN IN</button>
+  </form>
+  <p class="sign-in-container__Bottom">If you DON'T have an account, click <a href="sign-up.htm"><span id="signin-redirect">here</span></a> to sign up</p>
+</div>
+
+
+</body>
+<script type="module" src="../scripts/script.js"></script>
+</html>

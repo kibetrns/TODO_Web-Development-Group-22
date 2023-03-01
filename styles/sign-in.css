@@ -1,0 +1,45 @@
+body {
+    background-color: #500303;
+}
+
+.sign-in-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sign-in-container__Top {
+    color: black;
+}
+
+.sign-in-container__Center {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    color: white;
+}
+
+.sign-in-container__Center input {
+    padding: 0.7rem;
+    border-radius: 1rem;
+}
+.sign-in-container__Bottom  a {
+    text-decoration: none;
+
+}
+
+#sign-in-btn {
+    display: inline-block;
+    font-size: larger;
+    width: fit-content;
+    padding: 0rem 1rem;
+    align-items: center;
+    cursor: pointer;
+}
+.sign-in-container__Bottom {
+    color: black;
+
+}
